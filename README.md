@@ -1,2 +1,3 @@
 # MANAO
-Test task
+
+Registration and Authorization task

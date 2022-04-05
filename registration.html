@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Regictration</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+
+    <!-- Regictration -->
+
+    <form action="vendor/signUp.php" method="post" enctype="multipart/form-data">
+
+      <label>login</label>
+      <input type="text" placeholder="Input login" name="login"/>
+      <p class="error login">
+        </p>
+
+      <label>password</label>
+      <input type="password" placeholder="Input password" name="password"/>
+      <p class="error password"></p>
+
+      <label>confirm_password</label>
+      <input type="password" placeholder="Input confirm_password" name="confirm_password"/>
+      <p class="error confirm_password"></p>
+
+      <label>email</label>
+      <input type="text" placeholder="Input email" name="email"/>
+      <p class="error email"></p>
+
+      <label>name</label>
+      <input type="text" placeholder="Input name" name="name"/>
+      <p class="error name"></p>
+
+      <button type="submit" class="registr-btn">Sign Up</button>
+
+      <p>Do you have an account? - <a href="/">Sign in</a></p>
+    </form>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
