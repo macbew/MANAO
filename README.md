@@ -1,3 +1,1 @@
-# MANAO
-
-Registration and Authorization task
+# Registration and Authorization task
