@@ -124,12 +124,12 @@ class Validation
 
   public function checkLetterName($name,int $length)
   {
-    if (!ctype_alpha($name) || strlen($name)!==$length 
+    if (!ctype_alpha($name) || strlen($name)<$length 
     ){
       $response = [
         "status" => false,
         "field" => "name",
-        "message" => "Your Name must contain 2 letter!"
+        "message" => "Your Name must contain at least". $length . " letter!"
       ];
       die(json_encode($response));
     }
