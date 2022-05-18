@@ -1,1 +1,1 @@
-# Registration and Authorization task
+# Registration and Authorization project
